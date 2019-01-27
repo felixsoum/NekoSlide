@@ -50,4 +50,18 @@ public static class LevelData
         //{'0','0','0','0','0','0'}
         //},
     };
+
+    public static char[,] GetGrid(int index)
+    {
+        char[,] originalGrid = Grids[index];
+        char[,] cloneGrid = new char[6, 6];
+        for (int i = 0; i < 6; i++)
+        {
+            for (int j = 0; j < 6; j++)
+            {
+                cloneGrid[i, j] = originalGrid[i, j];
+            }
+        }
+        return cloneGrid;
+    }
 }

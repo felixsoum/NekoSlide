@@ -23,7 +23,7 @@ public class GameDirector : MonoBehaviour
         levelText.text = $"LEVEL {levelIndex + 1}";
         winText.gameObject.SetActive(false);
         camera = Camera.main;
-        currentGrid = LevelData.Grids[levelIndex];
+        currentGrid = LevelData.GetGrid(levelIndex);
         CreateBlocks();
     }
 
