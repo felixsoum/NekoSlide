@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class GameDirector : MonoBehaviour
@@ -89,5 +87,10 @@ public class GameDirector : MonoBehaviour
             return false;
         }
         return currentGrid[x, y + 1] == c;
+    }
+
+    public void OnBlockClick(BaseBlock block, bool isFront)
+    {
+
     }
 }

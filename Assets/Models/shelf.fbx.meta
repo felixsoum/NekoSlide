@@ -17,6 +17,18 @@ ModelImporter:
     100022: transform3
     100024: transform4
     100026: transform5
+    100028: pCube4
+    100030: pCube5
+    100032: pCube6
+    100034: pCube7
+    100036: pCube8
+    100038: polySurface5
+    100040: transform10
+    100042: transform11
+    100044: transform6
+    100046: transform7
+    100048: transform8
+    100050: transform9
     400000: group1
     400002: group2
     400004: group2_pCube3
@@ -31,11 +43,26 @@ ModelImporter:
     400022: transform3
     400024: transform4
     400026: transform5
+    400028: pCube4
+    400030: pCube5
+    400032: pCube6
+    400034: pCube7
+    400036: pCube8
+    400038: polySurface5
+    400040: transform10
+    400042: transform11
+    400044: transform6
+    400046: transform7
+    400048: transform8
+    400050: transform9
     2100000: lambert3
     2100002: lambert2
     2300000: group2_pCube3
+    2300002: pCube8
     3300000: group2_pCube3
+    3300002: pCube8
     4300000: group2_pCube3
+    4300002: pCube8
   externalObjects: {}
   materials:
     importMaterials: 1

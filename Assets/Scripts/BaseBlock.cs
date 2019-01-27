@@ -5,6 +5,7 @@ public class BaseBlock : MonoBehaviour
     int gridX;
     int gridY;
     public const float GridWidth = 1;
+    GameDirector gameDirector;
 
     public void Turn()
     {
@@ -17,5 +18,15 @@ public class BaseBlock : MonoBehaviour
         gridY = y;
         Vector3 pos = new Vector3(gridX * GridWidth, 0, gridY * GridWidth);
         transform.position = pos;
+    }
+
+    public void OnClick(bool isFront)
+    {
+
+    }
+
+    public void SetGameDirector(GameDirector gameDirector)
+    {
+        this.gameDirector = gameDirector;
     }
 }
