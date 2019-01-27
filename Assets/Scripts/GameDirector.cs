@@ -1,9 +1,13 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameDirector : MonoBehaviour
 {
-    [SerializeField] GameObject catPrefab;
+    [SerializeField] Text levelText = null;
+    [SerializeField] Text winText = null;
+    [SerializeField] GameObject catPrefab = null;
     [SerializeField] List<GameObject> block2Prefabs = new List<GameObject>();
     [SerializeField] List<GameObject> block3Prefabs = new List<GameObject>();
     static int levelIndex = 0;
@@ -11,11 +15,15 @@ public class GameDirector : MonoBehaviour
     char[,] currentGrid;
     new Camera camera;
     private Vector3 prevMousePos;
+    bool isGameOver;
+    BaseBlock catBlock;
 
     void Awake()
     {
+        levelText.text = $"LEVEL {levelIndex}";
+        winText.gameObject.SetActive(false);
         camera = Camera.main;
-        currentGrid = LevelData.Grids[levelIndex + 1];
+        currentGrid = LevelData.Grids[levelIndex];
         CreateBlocks();
     }
 
@@ -88,6 +96,10 @@ public class GameDirector : MonoBehaviour
 
     private void InitBlock(bool facesRight, int y, int x, char c, BaseBlock blockComponent)
     {
+        if (c == 'x')
+        {
+            catBlock = blockComponent;
+        }
         blockComponent.GridChar = c;
         blockComponent.SetGameDirector(this);
         blockComponent.SetGridPos(x, y);
@@ -118,6 +130,11 @@ public class GameDirector : MonoBehaviour
 
     public void OnBlockClick(BaseBlock block, bool isFront)
     {
+        if (isGameOver)
+        {
+            return;
+        }
+
         if (isFront)
         {
             if (!PushBack(block))
@@ -131,6 +148,14 @@ public class GameDirector : MonoBehaviour
             {
                 //PushBack(block);
             }
+        }
+
+        if (catBlock.GridPosX == 4)
+        {
+            isGameOver = true;
+            winText.gameObject.SetActive(true);
+            catBlock.GridPosX = 6;
+            Invoke("NextLevel", 2);
         }
     }
 
@@ -197,5 +222,21 @@ public class GameDirector : MonoBehaviour
     public void ClearGrid(int x, int y)
     {
         currentGrid[y, x] = '0';
+    }
+
+    public void ChangeLevel(int increment)
+    {
+        levelIndex += increment;
+        levelIndex %= LevelData.Grids.Count;
+        if (levelIndex < 0)
+        {
+            levelIndex += LevelData.Grids.Count;
+        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    void NextLevel()
+    {
+        ChangeLevel(1);
     }
 }
