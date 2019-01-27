@@ -9,10 +9,10 @@ FBXHeaderExtension:  {
 		Year: 2019
 		Month: 1
 		Day: 26
-		Hour: 18
-		Minute: 46
-		Second: 42
-		Millisecond: 898
+		Hour: 19
+		Minute: 5
+		Second: 26
+		Millisecond: 792
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,14 +34,15 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201800"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "26/01/2019 23:46:42.894"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "27/01/2019 00:05:26.790"
 			P: "Original|FileName", "KString", "", "", "D:\Users\Game\Desktop\dresser.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201800"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "26/01/2019 23:46:42.894"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/01/2019 00:05:26.790"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\Users\Game\Desktop"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\Users\Game\Desktop\dresser.ma"
 		}
 	}
 }
@@ -76,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2255795224944, "", "Scene" {
+	Document: 2601577515760, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -259,223 +260,223 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	NodeAttribute: 2256298362656, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583887728, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298368816, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583880512, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298362832, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583882272, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298361072, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583885616, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298362128, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583880864, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298367232, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583883504, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298370048, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583886320, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298366000, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583885968, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298369696, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583880688, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298364416, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583884032, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298364944, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583883680, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298360544, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583884384, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298367408, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583884560, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298363008, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583887376, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298368288, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583886496, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298368992, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583878400, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298364240, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583878224, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298368464, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583884736, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298370224, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583879632, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298368640, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583880336, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298367760, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583881040, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298370400, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583884912, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298363184, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583881216, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298363360, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583885088, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298369168, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583885440, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298365120, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583885792, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298365472, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583886672, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298370576, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583886848, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298370752, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583879280, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298367936, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583887024, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298363712, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583879808, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298366880, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583887200, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298366176, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583887552, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298363888, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583888080, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298360720, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583888256, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2256298367056, "NodeAttribute::", "Null" {
+	NodeAttribute: 2601583888432, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	Geometry: 2256302441072, "Geometry::", "Mesh" {
+	Geometry: 2601447720048, "Geometry::", "Mesh" {
 		Vertices: *1968 {
 			a: -1.11741876602173,0.00151854753494263,0.509513854980469,-1.0255286693573,0.00151854753494263,0.509513854980469,-1.11741876602173,1.2430157661438,0.509513854980469,-1.0255286693573,1.2430157661438,0.509513854980469,-1.11741876602173,1.2430157661438,0.424126029014587,-1.0255286693573,1.2430157661438,0.424126029014587,-1.11741876602173,0.00151854753494263,0.424126029014587,-1.0255286693573,0.00151854753494263,0.424126029014587,-1.11741876602173,0.00151854753494263,-0.509513795375824,-1.0255286693573,0.00151854753494263,-0.509513795375824,-1.11741876602173,1.2430157661438,-0.509513795375824,-1.0255286693573,1.2430157661438,-0.509513795375824,-1.11741876602173,1.2430157661438,-0.424126029014587,-1.0255286693573,1.2430157661438,-0.424126029014587,-1.11741876602173,0.00151854753494263,-0.424126029014587,-1.0255286693573,0.00151854753494263,-0.424126029014587,1.11741888523102,0.00151854753494263,0.509513854980469,1.02552855014801,0.00151854753494263,0.509513854980469,1.11741888523102,1.2430157661438,0.509513854980469,1.02552855014801,1.2430157661438,0.509513854980469,1.11741888523102,1.2430157661438,0.424126029014587,1.02552855014801,1.2430157661438,0.424126029014587,1.11741888523102,0.00151854753494263,0.424126029014587,1.02552855014801,0.00151854753494263,0.424126029014587,1.11741888523102,0.00151854753494263,-0.509513795375824,1.02552855014801,0.00151854753494263,-0.509513795375824,1.11741888523102,1.2430157661438,-0.509513795375824,1.02552855014801,1.2430157661438,-0.509513795375824,1.11741888523102,1.2430157661438,-0.424126029014587,1.02552855014801,1.2430157661438,-0.424126029014587,1.11741888523102,0.00151854753494263,-0.424126029014587,1.02552855014801,0.00151854753494263,-0.424126029014587,0.839571177959442,1.10258531570435,0.505388796329498,0.818272531032562,1.11140751838684,0.505388796329498,0.796973884105682,1.10258531570435,0.505388796329498,0.788151681423187,1.08128666877747,0.505388796329498,0.796973884105682,1.05998802185059,0.505388796329498,0.818272531032562,1.05116581916809,0.505388796329498,
 0.839571177959442,1.05998802185059,0.505388796329498,0.848393380641937,1.08128666877747,0.505388796329498,0.839571177959442,1.10258531570435,0.534482061862946,0.818272531032562,1.11140751838684,0.534482061862946,0.796973884105682,1.10258531570435,0.534482061862946,0.788151681423187,1.08128666877747,0.534482061862946,0.796973884105682,1.05998802185059,0.534482061862946,0.818272531032562,1.05116581916809,0.534482061862946,0.839571177959442,1.05998802185059,0.534482061862946,0.848393380641937,1.08128666877747,0.534482061862946,0.818272531032562,1.08128666877747,0.505388796329498,0.818272531032562,1.08128666877747,0.534482061862946,0.227135837078094,0.772557437419891,0.505388796329498,0.205837175250053,0.781379640102386,0.505388796329498,0.184538513422012,0.772557437419891,0.505388796329498,0.175716310739517,0.751258790493011,0.505388796329498,0.184538513422012,0.729960143566132,0.505388796329498,0.205837175250053,0.721137940883636,0.505388796329498,0.227135851979256,0.729960143566132,0.505388796329498,0.23595803976059,0.751258790493011,0.505388796329498,0.227135837078094,0.772557437419891,0.534482061862946,0.205837175250053,0.781379640102386,0.534482061862946,0.184538513422012,0.772557437419891,0.534482061862946,0.175716310739517,0.751258790493011,0.534482061862946,0.184538513422012,0.729960143566132,0.534482061862946,0.205837175250053,0.721137940883636,0.534482061862946,0.227135851979256,0.729960143566132,0.534482061862946,0.23595803976059,0.751258790493011,0.534482061862946,0.205837175250053,0.751258790493011,0.505388796329498,0.205837175250053,0.751258790493011,0.534482061862946,-1.13480186462402,0.197204381227493,0.534133434295654,1.13480186462402,0.197204381227493,0.534133434295654,-1.12020838260651,0.238347455859184,0.52154529094696,1.12020838260651,0.238347455859184,0.52154529094696,-1.12020838260651,0.238347455859184,-0.52154529094696,1.12020838260651,0.238347455859184,-0.52154529094696,-1.13480186462402,0.19260847568512,-0.534133434295654,1.13480186462402,0.19260847568512,-0.534133434295654,-1.14239537715912,0.215440407395363,0.537642657756805,
@@ -610,7 +611,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2256291251104, "Model::pCube1", "Null" {
+	Model: 2600993978848, "Model::pCube1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -623,7 +624,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256291269664, "Model::transform1", "Null" {
+	Model: 2600993981168, "Model::transform1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -635,7 +636,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256291271984, "Model::pCube2", "Null" {
+	Model: 2600993983488, "Model::pCube2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -648,7 +649,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256291258064, "Model::transform15", "Null" {
+	Model: 2600993985808, "Model::transform15", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -660,7 +661,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256291255744, "Model::pCube3", "Null" {
+	Model: 2601582547472, "Model::pCube3", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -673,7 +674,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256291265024, "Model::transform12", "Null" {
+	Model: 2601582535872, "Model::transform12", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -685,7 +686,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256033001840, "Model::group1", "Null" {
+	Model: 2601582538192, "Model::group1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",-0.496031121510772,1.08128664756421,0.522046143714588
@@ -699,7 +700,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303947664, "Model::pCylinder1", "Null" {
+	Model: 2601582540512, "Model::pCylinder1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -713,7 +714,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303968544, "Model::transform11", "Null" {
+	Model: 2601582554432, "Model::transform11", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -725,7 +726,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303956944, "Model::pCylinder2", "Null" {
+	Model: 2601582542832, "Model::pCylinder2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -739,7 +740,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303973184, "Model::transform10", "Null" {
+	Model: 2601582545152, "Model::transform10", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -751,7 +752,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303970864, "Model::group2", "Null" {
+	Model: 2601582533552, "Model::group2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",-0.496031121510772,1.08128664756421,0.522046143714588
@@ -765,7 +766,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303959264, "Model::pCylinder1", "Null" {
+	Model: 2601582549792, "Model::pCylinder1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -779,7 +780,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303945344, "Model::transform4", "Null" {
+	Model: 2601582531232, "Model::transform4", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -791,7 +792,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303954624, "Model::pCylinder2", "Null" {
+	Model: 2601582552112, "Model::pCylinder2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -805,7 +806,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303961584, "Model::transform3", "Null" {
+	Model: 2601582556752, "Model::transform3", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -817,7 +818,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303980144, "Model::group3", "Null" {
+	Model: 2601582526592, "Model::group3", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",-0.496031121510772,1.08128664756421,0.522046143714588
@@ -831,7 +832,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303963904, "Model::pCylinder1", "Null" {
+	Model: 2601582528912, "Model::pCylinder1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -845,7 +846,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303966224, "Model::transform6", "Null" {
+	Model: 2601580932576, "Model::transform6", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -857,7 +858,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303975504, "Model::pCylinder2", "Null" {
+	Model: 2601580930256, "Model::pCylinder2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -871,7 +872,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303977824, "Model::transform8", "Null" {
+	Model: 2601580934896, "Model::transform8", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -883,7 +884,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303949984, "Model::group4", "Null" {
+	Model: 2601580923296, "Model::group4", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",-0.496031121510772,1.08128664756421,0.522046143714588
@@ -897,7 +898,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303982464, "Model::pCylinder1", "Null" {
+	Model: 2601580939536, "Model::pCylinder1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -911,7 +912,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303952304, "Model::transform7", "Null" {
+	Model: 2601580944176, "Model::transform7", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -923,7 +924,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256304005664, "Model::pCylinder2", "Null" {
+	Model: 2601580937216, "Model::pCylinder2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -937,7 +938,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303984784, "Model::transform14", "Null" {
+	Model: 2601580925616, "Model::transform14", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -949,7 +950,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303994064, "Model::group5", "Null" {
+	Model: 2601580946496, "Model::group5", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",-0.496031121510772,1.08128664756421,0.522046143714588
@@ -963,7 +964,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303989424, "Model::pCylinder1", "Null" {
+	Model: 2601580948816, "Model::pCylinder1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -977,7 +978,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303991744, "Model::transform13", "Null" {
+	Model: 2601580951136, "Model::transform13", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -989,7 +990,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303996384, "Model::pCylinder2", "Null" {
+	Model: 2601580920976, "Model::pCylinder2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1003,7 +1004,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303987104, "Model::transform5", "Null" {
+	Model: 2601580927936, "Model::transform5", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1015,7 +1016,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256303998704, "Model::group6", "Null" {
+	Model: 2601580941856, "Model::group6", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",-0.496031121510772,1.08128664756421,0.522046143714588
@@ -1029,7 +1030,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256304001024, "Model::pCylinder1", "Null" {
+	Model: 2601583719984, "Model::pCylinder1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1043,7 +1044,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256304003344, "Model::transform2", "Null" {
+	Model: 2601583703744, "Model::transform2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1055,7 +1056,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256304007984, "Model::pCylinder2", "Null" {
+	Model: 2601583708384, "Model::pCylinder2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1069,7 +1070,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256304361424, "Model::transform9", "Null" {
+	Model: 2601583701424, "Model::transform9", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1081,23 +1082,19 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2256304354464, "Model::pCube4", "Mesh" {
+	Model: 2601583699104, "Model::pCube4", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "RotationPivot", "Vector3D", "Vector", "",0,0.644221100301475,0
-			P: "ScalingPivot", "Vector3D", "Vector", "",0,0.644221100301475,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0.483684196302233
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.843016849456085,0.843016849456085,0.843016849456085
 			P: "currentUVSet", "KString", "", "U", "map1"
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2256036227056, "Material::lambert1", "" {
+	Material: 2601528926656, "Material::lambert1", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -1112,7 +1109,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Material: 2256036228256, "Material::lambert2", "" {
+	Material: 2601528924656, "Material::lambert2", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -1127,7 +1124,7 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	AnimationStack: 2256232596960, "AnimStack::Take 001", "" {
+	AnimationStack: 2601455625968, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStart", "KTime", "Time", "",1924423250
 			P: "LocalStop", "KTime", "Time", "",230930790000
@@ -1135,7 +1132,7 @@ Objects:  {
 			P: "ReferenceStop", "KTime", "Time", "",230930790000
 		}
 	}
-	AnimationLayer: 2256296267648, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2601522020656, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -1145,235 +1142,235 @@ Objects:  {
 Connections:  {
 	
 	;Model::pCube1, Model::RootNode
-	C: "OO",2256291251104,0
+	C: "OO",2600993978848,0
 	
 	;Model::pCube2, Model::RootNode
-	C: "OO",2256291271984,0
+	C: "OO",2600993983488,0
 	
 	;Model::pCube3, Model::RootNode
-	C: "OO",2256291255744,0
+	C: "OO",2601582547472,0
 	
 	;Model::group1, Model::RootNode
-	C: "OO",2256033001840,0
+	C: "OO",2601582538192,0
 	
 	;Model::group2, Model::RootNode
-	C: "OO",2256303970864,0
+	C: "OO",2601582533552,0
 	
 	;Model::group3, Model::RootNode
-	C: "OO",2256303980144,0
+	C: "OO",2601582526592,0
 	
 	;Model::group4, Model::RootNode
-	C: "OO",2256303949984,0
+	C: "OO",2601580923296,0
 	
 	;Model::group5, Model::RootNode
-	C: "OO",2256303994064,0
+	C: "OO",2601580946496,0
 	
 	;Model::group6, Model::RootNode
-	C: "OO",2256303998704,0
+	C: "OO",2601580941856,0
 	
 	;Model::pCube4, Model::RootNode
-	C: "OO",2256304354464,0
+	C: "OO",2601583699104,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2256296267648,2256232596960
+	C: "OO",2601522020656,2601455625968
 	
 	;NodeAttribute::, Model::pCube1
-	C: "OO",2256298362656,2256291251104
+	C: "OO",2601583887728,2600993978848
 	
 	;Model::transform1, Model::pCube1
-	C: "OO",2256291269664,2256291251104
+	C: "OO",2600993981168,2600993978848
 	
 	;NodeAttribute::, Model::transform1
-	C: "OO",2256298368816,2256291269664
+	C: "OO",2601583880512,2600993981168
 	
 	;NodeAttribute::, Model::pCube2
-	C: "OO",2256298362832,2256291271984
+	C: "OO",2601583882272,2600993983488
 	
 	;Model::transform15, Model::pCube2
-	C: "OO",2256291258064,2256291271984
+	C: "OO",2600993985808,2600993983488
 	
 	;NodeAttribute::, Model::transform15
-	C: "OO",2256298361072,2256291258064
+	C: "OO",2601583885616,2600993985808
 	
 	;NodeAttribute::, Model::pCube3
-	C: "OO",2256298362128,2256291255744
+	C: "OO",2601583880864,2601582547472
 	
 	;Model::transform12, Model::pCube3
-	C: "OO",2256291265024,2256291255744
+	C: "OO",2601582535872,2601582547472
 	
 	;NodeAttribute::, Model::transform12
-	C: "OO",2256298367232,2256291265024
+	C: "OO",2601583883504,2601582535872
 	
 	;NodeAttribute::, Model::group1
-	C: "OO",2256298370048,2256033001840
+	C: "OO",2601583886320,2601582538192
 	
 	;Model::pCylinder1, Model::group1
-	C: "OO",2256303947664,2256033001840
+	C: "OO",2601582540512,2601582538192
 	
 	;Model::pCylinder2, Model::group1
-	C: "OO",2256303956944,2256033001840
+	C: "OO",2601582542832,2601582538192
 	
 	;NodeAttribute::, Model::pCylinder1
-	C: "OO",2256298366000,2256303947664
+	C: "OO",2601583885968,2601582540512
 	
 	;Model::transform11, Model::pCylinder1
-	C: "OO",2256303968544,2256303947664
+	C: "OO",2601582554432,2601582540512
 	
 	;NodeAttribute::, Model::transform11
-	C: "OO",2256298369696,2256303968544
+	C: "OO",2601583880688,2601582554432
 	
 	;NodeAttribute::, Model::pCylinder2
-	C: "OO",2256298364416,2256303956944
+	C: "OO",2601583884032,2601582542832
 	
 	;Model::transform10, Model::pCylinder2
-	C: "OO",2256303973184,2256303956944
+	C: "OO",2601582545152,2601582542832
 	
 	;NodeAttribute::, Model::transform10
-	C: "OO",2256298364944,2256303973184
+	C: "OO",2601583883680,2601582545152
 	
 	;NodeAttribute::, Model::group2
-	C: "OO",2256298360544,2256303970864
+	C: "OO",2601583884384,2601582533552
 	
 	;Model::pCylinder1, Model::group2
-	C: "OO",2256303959264,2256303970864
+	C: "OO",2601582549792,2601582533552
 	
 	;Model::pCylinder2, Model::group2
-	C: "OO",2256303954624,2256303970864
+	C: "OO",2601582552112,2601582533552
 	
 	;NodeAttribute::, Model::pCylinder1
-	C: "OO",2256298367408,2256303959264
+	C: "OO",2601583884560,2601582549792
 	
 	;Model::transform4, Model::pCylinder1
-	C: "OO",2256303945344,2256303959264
+	C: "OO",2601582531232,2601582549792
 	
 	;NodeAttribute::, Model::transform4
-	C: "OO",2256298363008,2256303945344
+	C: "OO",2601583887376,2601582531232
 	
 	;NodeAttribute::, Model::pCylinder2
-	C: "OO",2256298368288,2256303954624
+	C: "OO",2601583886496,2601582552112
 	
 	;Model::transform3, Model::pCylinder2
-	C: "OO",2256303961584,2256303954624
+	C: "OO",2601582556752,2601582552112
 	
 	;NodeAttribute::, Model::transform3
-	C: "OO",2256298368992,2256303961584
+	C: "OO",2601583878400,2601582556752
 	
 	;NodeAttribute::, Model::group3
-	C: "OO",2256298364240,2256303980144
+	C: "OO",2601583878224,2601582526592
 	
 	;Model::pCylinder1, Model::group3
-	C: "OO",2256303963904,2256303980144
+	C: "OO",2601582528912,2601582526592
 	
 	;Model::pCylinder2, Model::group3
-	C: "OO",2256303975504,2256303980144
+	C: "OO",2601580930256,2601582526592
 	
 	;NodeAttribute::, Model::pCylinder1
-	C: "OO",2256298368464,2256303963904
+	C: "OO",2601583884736,2601582528912
 	
 	;Model::transform6, Model::pCylinder1
-	C: "OO",2256303966224,2256303963904
+	C: "OO",2601580932576,2601582528912
 	
 	;NodeAttribute::, Model::transform6
-	C: "OO",2256298370224,2256303966224
+	C: "OO",2601583879632,2601580932576
 	
 	;NodeAttribute::, Model::pCylinder2
-	C: "OO",2256298368640,2256303975504
+	C: "OO",2601583880336,2601580930256
 	
 	;Model::transform8, Model::pCylinder2
-	C: "OO",2256303977824,2256303975504
+	C: "OO",2601580934896,2601580930256
 	
 	;NodeAttribute::, Model::transform8
-	C: "OO",2256298367760,2256303977824
+	C: "OO",2601583881040,2601580934896
 	
 	;NodeAttribute::, Model::group4
-	C: "OO",2256298370400,2256303949984
+	C: "OO",2601583884912,2601580923296
 	
 	;Model::pCylinder1, Model::group4
-	C: "OO",2256303982464,2256303949984
+	C: "OO",2601580939536,2601580923296
 	
 	;Model::pCylinder2, Model::group4
-	C: "OO",2256304005664,2256303949984
+	C: "OO",2601580937216,2601580923296
 	
 	;NodeAttribute::, Model::pCylinder1
-	C: "OO",2256298363184,2256303982464
+	C: "OO",2601583881216,2601580939536
 	
 	;Model::transform7, Model::pCylinder1
-	C: "OO",2256303952304,2256303982464
+	C: "OO",2601580944176,2601580939536
 	
 	;NodeAttribute::, Model::transform7
-	C: "OO",2256298363360,2256303952304
+	C: "OO",2601583885088,2601580944176
 	
 	;NodeAttribute::, Model::pCylinder2
-	C: "OO",2256298369168,2256304005664
+	C: "OO",2601583885440,2601580937216
 	
 	;Model::transform14, Model::pCylinder2
-	C: "OO",2256303984784,2256304005664
+	C: "OO",2601580925616,2601580937216
 	
 	;NodeAttribute::, Model::transform14
-	C: "OO",2256298365120,2256303984784
+	C: "OO",2601583885792,2601580925616
 	
 	;NodeAttribute::, Model::group5
-	C: "OO",2256298365472,2256303994064
+	C: "OO",2601583886672,2601580946496
 	
 	;Model::pCylinder1, Model::group5
-	C: "OO",2256303989424,2256303994064
+	C: "OO",2601580948816,2601580946496
 	
 	;Model::pCylinder2, Model::group5
-	C: "OO",2256303996384,2256303994064
+	C: "OO",2601580920976,2601580946496
 	
 	;NodeAttribute::, Model::pCylinder1
-	C: "OO",2256298370576,2256303989424
+	C: "OO",2601583886848,2601580948816
 	
 	;Model::transform13, Model::pCylinder1
-	C: "OO",2256303991744,2256303989424
+	C: "OO",2601580951136,2601580948816
 	
 	;NodeAttribute::, Model::transform13
-	C: "OO",2256298370752,2256303991744
+	C: "OO",2601583879280,2601580951136
 	
 	;NodeAttribute::, Model::pCylinder2
-	C: "OO",2256298367936,2256303996384
+	C: "OO",2601583887024,2601580920976
 	
 	;Model::transform5, Model::pCylinder2
-	C: "OO",2256303987104,2256303996384
+	C: "OO",2601580927936,2601580920976
 	
 	;NodeAttribute::, Model::transform5
-	C: "OO",2256298363712,2256303987104
+	C: "OO",2601583879808,2601580927936
 	
 	;NodeAttribute::, Model::group6
-	C: "OO",2256298366880,2256303998704
+	C: "OO",2601583887200,2601580941856
 	
 	;Model::pCylinder1, Model::group6
-	C: "OO",2256304001024,2256303998704
+	C: "OO",2601583719984,2601580941856
 	
 	;Model::pCylinder2, Model::group6
-	C: "OO",2256304007984,2256303998704
+	C: "OO",2601583708384,2601580941856
 	
 	;NodeAttribute::, Model::pCylinder1
-	C: "OO",2256298366176,2256304001024
+	C: "OO",2601583887552,2601583719984
 	
 	;Model::transform2, Model::pCylinder1
-	C: "OO",2256304003344,2256304001024
+	C: "OO",2601583703744,2601583719984
 	
 	;NodeAttribute::, Model::transform2
-	C: "OO",2256298363888,2256304003344
+	C: "OO",2601583888080,2601583703744
 	
 	;NodeAttribute::, Model::pCylinder2
-	C: "OO",2256298360720,2256304007984
+	C: "OO",2601583888256,2601583708384
 	
 	;Model::transform9, Model::pCylinder2
-	C: "OO",2256304361424,2256304007984
+	C: "OO",2601583701424,2601583708384
 	
 	;NodeAttribute::, Model::transform9
-	C: "OO",2256298367056,2256304361424
+	C: "OO",2601583888432,2601583701424
 	
 	;Geometry::, Model::pCube4
-	C: "OO",2256302441072,2256304354464
+	C: "OO",2601447720048,2601583699104
 	
 	;Material::lambert1, Model::pCube4
-	C: "OO",2256036227056,2256304354464
+	C: "OO",2601528926656,2601583699104
 	
 	;Material::lambert2, Model::pCube4
-	C: "OO",2256036228256,2256304354464
+	C: "OO",2601528924656,2601583699104
 }
 ;Takes section
 ;----------------------------------------------------
