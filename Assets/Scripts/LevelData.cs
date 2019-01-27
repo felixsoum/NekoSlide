@@ -22,7 +22,7 @@ public static class LevelData
         {'0','0','d','0','f','f'},
         {'b','b','d','e','e','0'}
         },
-        new char[6, 6]//Level x
+        new char[6, 6]//Level 3
         {
         {'0','0','0','0','0','0'},
         {'0','0','0','0','0','0'},
@@ -31,7 +31,7 @@ public static class LevelData
         {'0','b','0','d','0','e'},
         {'0','b','c','c','0','e'}
         },
-        new char[6, 6]//Level x
+        new char[6, 6]//Level 4
         {
         {'a','0','0','b','0','0'},
         {'a','0','0','b','0','0'},
