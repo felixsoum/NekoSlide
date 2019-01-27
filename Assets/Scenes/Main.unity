@@ -3416,6 +3416,7 @@ MonoBehaviour:
   block3Prefabs:
   - {fileID: 2814609273488273346, guid: 4397f4a4f833d6f42906228972aa9bbf, type: 3}
   - {fileID: 8068203351190823587, guid: 7a944da3d5706f44fa879f3c26a04c73, type: 3}
+  - {fileID: 8068203351190823587, guid: 0ca1cb338ab5c1e4b9db8cbc15ce97e4, type: 3}
 --- !u!4 &1322741485
 Transform:
   m_ObjectHideFlags: 0
