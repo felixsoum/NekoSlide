@@ -6,7 +6,7 @@ public class GameDirector : MonoBehaviour
     [SerializeField] GameObject catPrefab;
     [SerializeField] List<GameObject> block2Prefabs = new List<GameObject>();
     [SerializeField] List<GameObject> block3Prefabs = new List<GameObject>();
-
+    static int levelIndex = 0;
     HashSet<char> placedBlocks = new HashSet<char>();
     char[,] currentGrid;
     new Camera camera;
@@ -15,7 +15,7 @@ public class GameDirector : MonoBehaviour
     void Awake()
     {
         camera = Camera.main;
-        currentGrid = LevelData.Grids[0];
+        currentGrid = LevelData.Grids[levelIndex + 1];
         CreateBlocks();
     }
 
@@ -122,14 +122,14 @@ public class GameDirector : MonoBehaviour
         {
             if (!PushBack(block))
             {
-                PushFront(block);
+                //PushFront(block);
             }
         }
         else
         {
             if (!PushFront(block))
             {
-                PushBack(block);
+                //PushBack(block);
             }
         }
     }
