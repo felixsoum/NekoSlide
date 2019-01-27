@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameDirector : MonoBehaviour
@@ -10,11 +11,34 @@ public class GameDirector : MonoBehaviour
     LevelData levelData = new LevelData();
     HashSet<char> placedBlocks = new HashSet<char>();
     char[,] currentGrid;
+    new Camera camera;
+    private Vector3 prevMousePos;
 
     void Awake()
     {
+        camera = Camera.main;
         currentGrid = levelData.GetGrid();
         CreateBlocks();
+    }
+
+    void Update()
+    {
+        UpdateCamera();
+    }
+
+    private void UpdateCamera()
+    {
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            prevMousePos = Input.mousePosition;
+        }
+        else if (Input.GetMouseButton(0))
+        {
+            float deltaX = Input.mousePosition.x - prevMousePos.x;
+            prevMousePos = Input.mousePosition;
+            camera.transform.RotateAround(new Vector3(2.5f, 0, 2.5f), Vector3.up, 10 * deltaX * Time.deltaTime);
+        }
     }
 
     private void CreateBlocks()
@@ -60,16 +84,21 @@ public class GameDirector : MonoBehaviour
                 }
 
                 GameObject newBlock = Instantiate(blockPrefab, transform);
-                var blockComponent = newBlock.GetComponent<BaseBlock>();
-                blockComponent.SetPosition(x, y);
-                if (facesRight)
-                {
-                    blockComponent.Turn();
-                }
+                InitBlock(facesRight, y, x, newBlock.GetComponent<BaseBlock>());
             }
         }
     }
 
+    private void InitBlock(bool facesRight, int y, int x, BaseBlock blockComponent)
+    {
+        blockComponent.SetGameDirector(this);
+        blockComponent.SetGridPos(x, y);
+        blockComponent.SnapToGrid();
+        if (facesRight)
+        {
+            blockComponent.Turn();
+        }
+    }
 
     bool IsSameBlockRight(char c, int x, int y)
     {
@@ -91,6 +120,5 @@ public class GameDirector : MonoBehaviour
 
     public void OnBlockClick(BaseBlock block, bool isFront)
     {
-
     }
 }

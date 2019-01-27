@@ -58,6 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFront: 0
+  parentBlock: {fileID: 3808874228964128413}
 --- !u!1 &3537645364533270567
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,6 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5364412664421a440b43e941d04ae390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  size: 2
 --- !u!1 &4405368422179494276
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFront: 1
+  parentBlock: {fileID: 3808874228964128413}
 --- !u!1 &5437278627779955783
 GameObject:
   m_ObjectHideFlags: 0

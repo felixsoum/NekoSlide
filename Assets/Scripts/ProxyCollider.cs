@@ -3,10 +3,10 @@
 public class ProxyCollider : MonoBehaviour
 {
     [SerializeField] bool isFront = true;
-    [SerializeField] BaseBlock parentBlock;
+    public BaseBlock Parent { get; set; }
 
     void OnMouseDown()
     {
-        parentBlock.OnClick(isFront);
+        Parent.OnClick(isFront);
     }
 }
