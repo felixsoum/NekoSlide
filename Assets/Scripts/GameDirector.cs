@@ -135,7 +135,14 @@ public class GameDirector : MonoBehaviour
             return;
         }
 
-        if (isFront)
+        if (catBlock.GridPosX == 4)
+        {
+            isGameOver = true;
+            winText.gameObject.SetActive(true);
+            catBlock.GridPosX = 6;
+            Invoke("NextLevel", 2);
+        }
+        else if (isFront)
         {
             if (!PushBack(block))
             {
@@ -150,13 +157,6 @@ public class GameDirector : MonoBehaviour
             }
         }
 
-        if (catBlock.GridPosX == 4)
-        {
-            isGameOver = true;
-            winText.gameObject.SetActive(true);
-            catBlock.GridPosX = 6;
-            Invoke("NextLevel", 2);
-        }
     }
 
     private bool PushFront(BaseBlock block)
