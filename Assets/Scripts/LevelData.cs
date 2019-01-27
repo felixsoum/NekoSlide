@@ -1,16 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class LevelData : MonoBehaviour
+public class LevelData
 {
-    char[,] Grid { get; set; } =  new char[6, 6]
+    public char[,] GetGrid()
     {
-        {'0','0','0','0','0','0'},
-        {'0','0','0','0','0','0'},
-        {'0','0','0','0','0','0'},
-        {'0','0','0','0','0','0'},
-        {'0','0','0','0','0','0'},
-        {'0','0','0','0','0','0'}
-    };
+        return new char[6, 6]
+        {
+        {'0','0','0','0','b','c'},
+        {'0','a','a','a','b','c'},
+        {'x','x','d','0','b','c'},
+        {'0','0','d','0','0','0'},
+        {'0','0','e','0','0','0'},
+        {'0','0','e','0','0','0'}
+        };
+    }
+
+
 }
