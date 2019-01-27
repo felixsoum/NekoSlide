@@ -57,6 +57,7 @@ ModelImporter:
     400050: transform9
     2100000: lambert3
     2100002: lambert2
+    2100004: lambert1
     2300000: group2_pCube3
     2300002: pCube8
     3300000: group2_pCube3

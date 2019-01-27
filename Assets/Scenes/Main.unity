@@ -2892,7 +2892,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.01
+  m_Intensity: 0.05
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -3417,6 +3417,7 @@ MonoBehaviour:
   - {fileID: 2814609273488273346, guid: 4397f4a4f833d6f42906228972aa9bbf, type: 3}
   - {fileID: 8068203351190823587, guid: 7a944da3d5706f44fa879f3c26a04c73, type: 3}
   - {fileID: 8068203351190823587, guid: 0ca1cb338ab5c1e4b9db8cbc15ce97e4, type: 3}
+  - {fileID: 8068203351190823587, guid: 072d24fc4c60f0e4ba53bdd62de6b8fb, type: 3}
 --- !u!4 &1322741485
 Transform:
   m_ObjectHideFlags: 0
@@ -5644,7 +5645,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 0.9009434, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 5
   m_SpotAngle: 30
   m_CookieSize: 10

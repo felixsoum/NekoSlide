@@ -45,9 +45,9 @@ public class BaseBlock : MonoBehaviour
         return new Vector3(GridPosX * GridWidth, 0, GridPosY * GridWidth);
     }
 
-    public void OnClick(bool isFront)
+    public void OnClick()
     {
-        gameDirector.OnBlockClick(this, isFront);
+        gameDirector.OnBlockClick(this);
     }
 
     public void SetGameDirector(GameDirector gameDirector)

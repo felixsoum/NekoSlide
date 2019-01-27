@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameDirector : MonoBehaviour
 {
+    private const float MouseDistanceToMoveBlock = 75;
     [SerializeField] Text levelText = null;
     [SerializeField] Text winText = null;
     [SerializeField] GameObject catPrefab = null;
@@ -15,10 +16,12 @@ public class GameDirector : MonoBehaviour
     char[,] currentGrid;
     new Camera camera;
     private Vector3 prevMousePos;
+    private Vector3 startMousePos;
     bool isGameOver;
     BaseBlock catBlock;
+    BaseBlock clickedBlock;
 
-    bool isBlockOnClick;
+    Vector3 blockForward;
 
     void Awake()
     {
@@ -33,10 +36,37 @@ public class GameDirector : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
-            isBlockOnClick = false;
+            clickedBlock = null;
+            blockForward = Vector3.zero;
         }
 
         UpdateCamera();
+
+        if (Input.GetMouseButton(0) && clickedBlock != null)
+        {
+            Vector3 screenVector = Input.mousePosition - startMousePos;
+            float dot = Vector3.Dot(screenVector, blockForward);
+            if (Mathf.Abs(dot) > MouseDistanceToMoveBlock)
+            {
+                if (dot > 0)
+                {
+                    PushFront(clickedBlock);
+                }
+                else
+                {
+                    PushBack(clickedBlock);
+                }
+                startMousePos = Input.mousePosition;
+
+                if (catBlock.GridPosX == 4)
+                {
+                    isGameOver = true;
+                    winText.gameObject.SetActive(true);
+                    catBlock.GridPosX = 6;
+                    Invoke("NextLevel", 2);
+                }
+            }
+        }
     }
 
     private void UpdateCamera()
@@ -44,8 +74,9 @@ public class GameDirector : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             prevMousePos = Input.mousePosition;
+            startMousePos = prevMousePos;
         }
-        else if (Input.GetMouseButton(0) && !isBlockOnClick)
+        else if (Input.GetMouseButton(0) && clickedBlock == null)
         {
             float deltaX = Input.mousePosition.x - prevMousePos.x;
             prevMousePos = Input.mousePosition;
@@ -135,37 +166,19 @@ public class GameDirector : MonoBehaviour
         return currentGrid[x, y + 1] == c;
     }
 
-    public void OnBlockClick(BaseBlock block, bool isFront)
+    public void OnBlockClick(BaseBlock block)
     {
         if (isGameOver)
         {
             return;
         }
 
-        isBlockOnClick = true;
-
-        if (catBlock.GridPosX == 4)
-        {
-            isGameOver = true;
-            winText.gameObject.SetActive(true);
-            catBlock.GridPosX = 6;
-            Invoke("NextLevel", 2);
-        }
-        else if (isFront)
-        {
-            if (!PushBack(block))
-            {
-                //PushFront(block);
-            }
-        }
-        else
-        {
-            if (!PushFront(block))
-            {
-                //PushBack(block);
-            }
-        }
-
+        clickedBlock = block;
+        Vector3 screenPointStart = camera.WorldToScreenPoint(block.transform.position);
+        Vector3 screenPointEnd = camera.WorldToScreenPoint(block.transform.position + block.transform.right);
+        blockForward = screenPointEnd - screenPointStart;
+        blockForward.z = 0;
+        blockForward.Normalize();
     }
 
     private bool PushFront(BaseBlock block)
