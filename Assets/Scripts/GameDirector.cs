@@ -18,6 +18,8 @@ public class GameDirector : MonoBehaviour
     bool isGameOver;
     BaseBlock catBlock;
 
+    bool isBlockOnClick;
+
     void Awake()
     {
         levelText.text = $"LEVEL {levelIndex + 1}";
@@ -29,6 +31,11 @@ public class GameDirector : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetMouseButtonUp(0))
+        {
+            isBlockOnClick = false;
+        }
+
         UpdateCamera();
     }
 
@@ -38,7 +45,7 @@ public class GameDirector : MonoBehaviour
         {
             prevMousePos = Input.mousePosition;
         }
-        else if (Input.GetMouseButton(0))
+        else if (Input.GetMouseButton(0) && !isBlockOnClick)
         {
             float deltaX = Input.mousePosition.x - prevMousePos.x;
             prevMousePos = Input.mousePosition;
@@ -134,6 +141,8 @@ public class GameDirector : MonoBehaviour
         {
             return;
         }
+
+        isBlockOnClick = true;
 
         if (catBlock.GridPosX == 4)
         {
