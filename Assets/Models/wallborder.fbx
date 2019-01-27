@@ -10,9 +10,9 @@ FBXHeaderExtension:  {
 		Month: 1
 		Day: 27
 		Hour: 2
-		Minute: 9
-		Second: 56
-		Millisecond: 256
+		Minute: 10
+		Second: 11
+		Millisecond: 587
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,19 +28,19 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "D:\Users\Game\Desktop\wall.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "D:\Users\Game\Desktop\wall.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "D:\Users\Game\Desktop\wallboarder.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\Users\Game\Desktop\wallboarder.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201800"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "27/01/2019 07:09:56.255"
-			P: "Original|FileName", "KString", "", "", "D:\Users\Game\Desktop\wall.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "27/01/2019 07:10:11.586"
+			P: "Original|FileName", "KString", "", "", "D:\Users\Game\Desktop\wallboarder.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201800"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/01/2019 07:09:56.255"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/01/2019 07:10:11.586"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\Users\Game\Desktop"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\Users\Game\Desktop\Floortile1.ma"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2179052372448, "", "Scene" {
+	Document: 2179052360672, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -260,19 +260,25 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	NodeAttribute: 2179038284496, "NodeAttribute::", "Null" {
+	NodeAttribute: 2179038295056, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2179038287312, "NodeAttribute::", "Null" {
+	NodeAttribute: 2179038291184, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2179038286608, "NodeAttribute::", "Null" {
+	NodeAttribute: 2179038291360, "NodeAttribute::", "Null" {
+		Properties70:  {
+			P: "Look", "enum", "", "",0
+		}
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 2179038291888, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
@@ -284,33 +290,27 @@ Objects:  {
 		}
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 2179038295056, "NodeAttribute::", "Null" {
-		Properties70:  {
-			P: "Look", "enum", "", "",0
-		}
-		TypeFlags: "Null"
-	}
-	Geometry: 2179037222528, "Geometry::", "Mesh" {
-		Vertices: *12 {
-			a: -0.5,0.00803458690643311,-0.503750920295715,0.5,0.00803458690643311,-0.503750920295715,-0.5,3.66079235076904,-0.503750920295715,0.5,3.66079235076904,-0.503750920295715
+	Geometry: 2179055681152, "Geometry::", "Mesh" {
+		Vertices: *30 {
+			a: -0.5,0.979057192802429,-0.471189677715302,0.5,0.979057192802429,-0.471189677715302,-0.5,1.12427008152008,-0.50511234998703,0.5,1.12427008152008,-0.50511234998703,-0.5,0.979057192802429,-0.50511234998703,0.5,0.979057192802429,-0.50511234998703,-0.5,1.12427008152008,-0.48814931511879,-0.5,1.10731041431427,-0.471189677715302,0.5,1.12427008152008,-0.48814931511879,0.5,1.10731041431427,-0.471189677715302
 		} 
-		PolygonVertexIndex: *4 {
-			a: 0,1,3,-3
+		PolygonVertexIndex: *30 {
+			a: 0,1,9,-8,6,8,3,-3,2,3,5,-5,4,5,1,-1,1,5,3,8,-10,4,0,7,6,-3,6,7,9,-9
 		} 
-		Edges: *4 {
-			a: 0,2,3,1
+		Edges: *15 {
+			a: 0,6,10,3,1,11,9,15,13,7,23,5,19,4,2
 		} 
 		GeometryVersion: 124
 		LayerElementNormal: 0 {
 			Version: 102
 			Name: ""
-			MappingInformationType: "ByVertice"
+			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "Direct"
-			Normals: *12 {
-				a: 0,0,1,0,0,1,0,0,1,0,0,1
+			Normals: *90 {
+				a: 0,0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0,0,-0.999999940395355,0,0,-0.999999940395355,0,0,-0.999999940395355,0,0,-0.999999940395355,0,-1,0,0,-1,0,0,-1,0,0,-1,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,0,0.707106173038483,0.707107424736023,0,0.707106173038483,0.707107424736023,0,0.707106173038483,0.707107424736023,0,0.707106173038483,0.707107424736023
 			} 
-			NormalsW: *4 {
-				a: 1,1,1,1
+			NormalsW: *30 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 			} 
 		}
 		LayerElementUV: 0 {
@@ -318,11 +318,11 @@ Objects:  {
 			Name: "map1"
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "IndexToDirect"
-			UV: *8 {
-				a: 0.375,0,0.625,0,0.625,0.25,0.375,0.25
+			UV: *36 {
+				a: 0.375,0,0.625,0,0.625,0.220802068710327,0.375,0.220802068710327,0.375,0.374987483024597,0.625,0.374987483024597,0.625,0.5,0.375,0.5,0.625,0.75,0.375,0.75,0.625,1,0.375,1,0.875,0,0.875,0.25,0.749987483024597,0.25,0.125,0,0.250012516975403,0.25,0.125,0.25
 			} 
-			UVIndex: *4 {
-				a: 0,1,2,3
+			UVIndex: *30 {
+				a: 0,1,2,3,4,5,6,7,7,6,8,9,9,8,10,11,1,12,13,14,2,15,0,3,16,17,4,3,2,5
 			} 
 		}
 		LayerElementMaterial: 0 {
@@ -350,13 +350,13 @@ Objects:  {
 			}
 		}
 	}
-	NodeAttribute: 2179038292064, "NodeAttribute::", "Null" {
+	NodeAttribute: 2179038291712, "NodeAttribute::", "Null" {
 		Properties70:  {
 			P: "Look", "enum", "", "",0
 		}
 		TypeFlags: "Null"
 	}
-	Model: 2178662450736, "Model::pCube3", "Null" {
+	Model: 2179033808416, "Model::pCube3", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -368,7 +368,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2178662439136, "Model::transform1", "Null" {
+	Model: 2179033803776, "Model::transform1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -380,7 +380,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2178662429856, "Model::pCube4", "Null" {
+	Model: 2179033810736, "Model::pCube4", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -392,7 +392,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2178662453056, "Model::transform2", "Null" {
+	Model: 2179033815536, "Model::transform2", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -404,7 +404,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2178662441456, "Model::pCube5", "Null" {
+	Model: 2179033817856, "Model::pCube5", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",0,1.83441348767216,-0.559734237799941
@@ -417,7 +417,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2178662455376, "Model::polySurface2", "Mesh" {
+	Model: 2179033820176, "Model::polySurface1", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -429,7 +429,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2178662446096, "Model::transform3", "Null" {
+	Model: 2179033822496, "Model::transform3", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -441,22 +441,22 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Material: 2179159455760, "Material::lambert1", "" {
+	Material: 2179159460160, "Material::lambert6", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
 		Properties70:  {
 			P: "AmbientColor", "Color", "", "A",0,0,0
-			P: "DiffuseColor", "Color", "", "A",0.519999980926514,0.926743984222412,1
+			P: "DiffuseColor", "Color", "", "A",1,1,1
 			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
 			P: "TransparencyFactor", "Number", "", "A",1
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
 			P: "Ambient", "Vector3D", "Vector", "",0,0,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.415999990940094,0.741395198425579,0.800000011920929
+			P: "Diffuse", "Vector3D", "Vector", "",0.800000011920929,0.800000011920929,0.800000011920929
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	AnimationStack: 2179027989088, "AnimStack::Take 001", "" {
+	AnimationStack: 2179027979728, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStart", "KTime", "Time", "",1924423250
 			P: "LocalStop", "KTime", "Time", "",230930790000
@@ -464,7 +464,7 @@ Objects:  {
 			P: "ReferenceStop", "KTime", "Time", "",230930790000
 		}
 	}
-	AnimationLayer: 2179063327168, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2179063340848, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -474,52 +474,52 @@ Objects:  {
 Connections:  {
 	
 	;Model::pCube3, Model::RootNode
-	C: "OO",2178662450736,0
+	C: "OO",2179033808416,0
 	
 	;Model::pCube4, Model::RootNode
-	C: "OO",2178662429856,0
+	C: "OO",2179033810736,0
 	
 	;Model::pCube5, Model::RootNode
-	C: "OO",2178662441456,0
+	C: "OO",2179033817856,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2179063327168,2179027989088
+	C: "OO",2179063340848,2179027979728
 	
 	;NodeAttribute::, Model::pCube3
-	C: "OO",2179038284496,2178662450736
+	C: "OO",2179038295056,2179033808416
 	
 	;Model::transform1, Model::pCube3
-	C: "OO",2178662439136,2178662450736
+	C: "OO",2179033803776,2179033808416
 	
 	;NodeAttribute::, Model::transform1
-	C: "OO",2179038287312,2178662439136
+	C: "OO",2179038291184,2179033803776
 	
 	;NodeAttribute::, Model::pCube4
-	C: "OO",2179038286608,2178662429856
+	C: "OO",2179038291360,2179033810736
 	
 	;Model::transform2, Model::pCube4
-	C: "OO",2178662453056,2178662429856
+	C: "OO",2179033815536,2179033810736
 	
 	;NodeAttribute::, Model::transform2
-	C: "OO",2179038289248,2178662453056
+	C: "OO",2179038291888,2179033815536
 	
 	;NodeAttribute::, Model::pCube5
-	C: "OO",2179038295056,2178662441456
+	C: "OO",2179038289248,2179033817856
 	
-	;Model::polySurface2, Model::pCube5
-	C: "OO",2178662455376,2178662441456
+	;Model::polySurface1, Model::pCube5
+	C: "OO",2179033820176,2179033817856
 	
 	;Model::transform3, Model::pCube5
-	C: "OO",2178662446096,2178662441456
+	C: "OO",2179033822496,2179033817856
 	
-	;Geometry::, Model::polySurface2
-	C: "OO",2179037222528,2178662455376
+	;Geometry::, Model::polySurface1
+	C: "OO",2179055681152,2179033820176
 	
-	;Material::lambert1, Model::polySurface2
-	C: "OO",2179159455760,2178662455376
+	;Material::lambert6, Model::polySurface1
+	C: "OO",2179159460160,2179033820176
 	
 	;NodeAttribute::, Model::transform3
-	C: "OO",2179038292064,2178662446096
+	C: "OO",2179038291712,2179033822496
 }
 ;Takes section
 ;----------------------------------------------------
