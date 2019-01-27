@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class GameDirector : MonoBehaviour
@@ -8,7 +7,6 @@ public class GameDirector : MonoBehaviour
     [SerializeField] List<GameObject> block2Prefabs = new List<GameObject>();
     [SerializeField] List<GameObject> block3Prefabs = new List<GameObject>();
 
-    LevelData levelData = new LevelData();
     HashSet<char> placedBlocks = new HashSet<char>();
     char[,] currentGrid;
     new Camera camera;
@@ -17,7 +15,7 @@ public class GameDirector : MonoBehaviour
     void Awake()
     {
         camera = Camera.main;
-        currentGrid = levelData.GetGrid();
+        currentGrid = LevelData.Grids[0];
         CreateBlocks();
     }
 
@@ -28,7 +26,6 @@ public class GameDirector : MonoBehaviour
 
     private void UpdateCamera()
     {
-
         if (Input.GetMouseButtonDown(0))
         {
             prevMousePos = Input.mousePosition;
