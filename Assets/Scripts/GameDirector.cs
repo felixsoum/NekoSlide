@@ -20,7 +20,7 @@ public class GameDirector : MonoBehaviour
 
     void Awake()
     {
-        levelText.text = $"LEVEL {levelIndex}";
+        levelText.text = $"LEVEL {levelIndex + 1}";
         winText.gameObject.SetActive(false);
         camera = Camera.main;
         currentGrid = LevelData.Grids[levelIndex];
