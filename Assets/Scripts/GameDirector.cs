@@ -84,13 +84,14 @@ public class GameDirector : MonoBehaviour
                 }
 
                 GameObject newBlock = Instantiate(blockPrefab, transform);
-                InitBlock(facesRight, y, x, newBlock.GetComponent<BaseBlock>());
+                InitBlock(facesRight, y, x, c, newBlock.GetComponent<BaseBlock>());
             }
         }
     }
 
-    private void InitBlock(bool facesRight, int y, int x, BaseBlock blockComponent)
+    private void InitBlock(bool facesRight, int y, int x, char c, BaseBlock blockComponent)
     {
+        blockComponent.GridChar = c;
         blockComponent.SetGameDirector(this);
         blockComponent.SetGridPos(x, y);
         blockComponent.SnapToGrid();
@@ -120,5 +121,84 @@ public class GameDirector : MonoBehaviour
 
     public void OnBlockClick(BaseBlock block, bool isFront)
     {
+        if (isFront)
+        {
+            if (!PushBack(block))
+            {
+                PushFront(block);
+            }
+        }
+        else
+        {
+            if (!PushFront(block))
+            {
+                PushBack(block);
+            }
+        }
+    }
+
+    private bool PushFront(BaseBlock block)
+    {
+        if (block.IsTurned)
+        {
+            if (TrySetGrid(block.GridPosX, block.GridPosY + block.size, block.GridChar))
+            {
+                ClearGrid(block.GridPosX, block.GridPosY);
+                block.GridPosY++;
+                return true;
+            }
+        }
+        else
+        {
+            if (TrySetGrid(block.GridPosX + block.size, block.GridPosY, block.GridChar))
+            {
+                ClearGrid(block.GridPosX, block.GridPosY);
+                block.GridPosX++;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private bool PushBack(BaseBlock block)
+    {
+        if (block.IsTurned)
+        {
+            if (TrySetGrid(block.GridPosX, block.GridPosY - 1, block.GridChar))
+            {
+                ClearGrid(block.GridPosX, block.GridPosY + block.size - 1);
+                block.GridPosY--;
+                return true;
+            }
+        }
+        else
+        {
+            if (TrySetGrid(block.GridPosX - 1, block.GridPosY, block.GridChar))
+            {
+                ClearGrid(block.GridPosX + block.size - 1, block.GridPosY);
+                block.GridPosX--;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool TrySetGrid(int x, int y, char c)
+    {
+        if (x < 0 || x > 5 || y < 0 || y > 5)
+        {
+            return false;
+        }
+        if (currentGrid[y, x] == '0')
+        {
+            currentGrid[y, x] = c;
+            return true;
+        }
+        return false;
+    }
+
+    public void ClearGrid(int x, int y)
+    {
+        currentGrid[y, x] = '0';
     }
 }

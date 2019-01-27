@@ -4,8 +4,9 @@ public class BaseBlock : MonoBehaviour
 {
     public int size = 2;
     public bool IsTurned { get; set; }
-    int gridPosX;
-    int gridPosY;
+    public char GridChar { get; set; }
+    public int GridPosX;
+    public int GridPosY;
     public const float GridWidth = 1;
     GameDirector gameDirector;
 
@@ -30,8 +31,8 @@ public class BaseBlock : MonoBehaviour
 
     public void SetGridPos(int x, int y)
     {
-        gridPosX = x;
-        gridPosY = y;
+        GridPosX = x;
+        GridPosY = y;
     }
 
     public void SnapToGrid()
@@ -41,19 +42,11 @@ public class BaseBlock : MonoBehaviour
 
     Vector3 GetPosFromGrid()
     {
-        return new Vector3(gridPosX * GridWidth, 0, gridPosY * GridWidth);
+        return new Vector3(GridPosX * GridWidth, 0, GridPosY * GridWidth);
     }
 
     public void OnClick(bool isFront)
     {
-        if (isFront)
-        {
-            gridPosX++;
-        }
-        else
-        {
-            gridPosX--;
-        }
         gameDirector.OnBlockClick(this, isFront);
     }
 

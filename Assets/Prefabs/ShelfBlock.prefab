@@ -308,8 +308,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 1, z: 1}
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Size: {x: 1.5, y: 2.5, z: 1}
+  m_Center: {x: 0, y: 1.25, z: 0}
 --- !u!114 &8427513424629078603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,7 +323,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFront: 0
-  parentBlock: {fileID: 0}
 --- !u!1 &8068203351190823587
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +370,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 3
+  GridPosX: 0
+  GridPosY: 0
 --- !u!1 &8922372985059189901
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,8 +415,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 1, z: 1}
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Size: {x: 1.5, y: 2.5, z: 1}
+  m_Center: {x: 0, y: 1.25, z: 0}
 --- !u!114 &2086972487666239243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,7 +430,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFront: 1
-  parentBlock: {fileID: 0}
 --- !u!1001 &9036053216479336435
 PrefabInstance:
   m_ObjectHideFlags: 0
